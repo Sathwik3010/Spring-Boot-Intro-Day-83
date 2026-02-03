@@ -1,0 +1,40 @@
+in spring 
+spring core- dependency injectons, IOC container
+Spring Wep , Data JPA.
+
+there are some draw backs in spring like:
+-> Compatibility issues with libraries.
+-> Manual configuration required(DataSource, JDBCTemplate, Transaction Manager, etc).
+-> Deployment only on external servers.
+Thats the reason Spring boot is introduced
+
+SPRING BOOT
+===========
+Open-source Java-based framework(By Pivotal)
+Built on top of Spring Framework
+Minimal configuration required
+Create stand-alone, production-ready application
+Supports java, kotlin, Groovy
+Runs with embedded servers(Tomcat/Jetty)
+Provides Actuators for monitoring
+Increases productivity & reduces development time
+
+Features of Spring Boot
+======================
+Spring Boot Staters(dependency management)
+Auto Configuration (@EnableAutoConfiguration)
+Spring Boot Annotations
+Spring Boot Actuators
+Logging Support
+Custom Banner
+
+Pre-configured dependency packages
+Single-dependency libraries(convenience)
+Ensure compatibility between versions
+Eliminate boilerplate configs
+Examples: starter-web, starter-data-jpa, starter-security, stater-test
+
+There are 2 types to create the project in spring boot 
+spring initializer and spring sts 
+Most of them uses spring sts as it is easy to download and set the project
+where as Spring initializer we should go to browser and set up the project and initialize the dependencies as per the requirement
